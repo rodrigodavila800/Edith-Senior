@@ -1,0 +1,31 @@
+{
+  "input_summary": {
+    "total_files": 10830,
+    "by_bucket": {
+      "code": 6836,
+      "docs": 583,
+      "tests": 3098,
+      "other": 313
+    },
+    "total_chars": 43214521
+  },
+  "curated_summary": {
+    "total_files": 200,
+    "by_bucket": {
+      "code": 120,
+      "docs": 50,
+      "tests": 29,
+      "other": 1
+    },
+    "total_chars": 1165457
+  },
+  "config": {
+    "data_dir": "data",
+    "target_files": 200,
+    "mix_code": 0.6,
+    "mix_docs": 0.25,
+    "mix_tests_and_other": 0.15000000000000002,
+    "seed": 1337,
+    "max_chars": 120000
+  }
+}

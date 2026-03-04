@@ -1,0 +1,16 @@
+# Formato: categoria|prompt
+store|public function store(Request $request) {
+crud|public function update(UpdatePostRequest $request, Post $post) {
+crud|public function destroy(Post $post) {
+auth|Route::middleware(['auth:sanctum'])->group(function () {
+policy|class PostPolicy
+api|public function index(Request $request): JsonResponse
+api|public function store(StoreUserRequest $request): JsonResponse
+tests|it('creates a post successfully', function () {
+tests|public function test_user_can_update_profile(): void
+queue|class SendWelcomeEmail implements ShouldQueue
+events|class UserRegistered
+routes|Route::prefix('admin')->middleware(['auth', 'can:manage-users'])->group(function () {
+validation|public function rules(): array
+performance|public function boot(): void
+security|public function authenticate(Request $request)

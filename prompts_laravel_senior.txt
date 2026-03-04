@@ -1,0 +1,6 @@
+# Prompts de benchmark Laravel Senior
+public function store(Request $request) {
+public function update(UpdateUserRequest $request, User $user) {
+public function destroy(User $user) {
+Route::middleware(['auth:sanctum'])->group(function () {
+class UserPolicy

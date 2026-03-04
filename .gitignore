@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Large training datasets and cloned sources
+data/
+
+# Large model/checkpoint artifacts
+*.pt
+*.pth
+*.ckpt
+edith_laravel_senior_ckpt.pt
+edith_laravel_senior.pt
+edith_laravel_senior_best.pt
+
+# Local outputs/logs
+*.log
